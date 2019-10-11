@@ -1,0 +1,104 @@
+body > * * *:hover:not(ul):not(div){
+	background-color: #A6CE39;
+}
+
+html{
+	background-image: url("http://selab.hanyang.ac.kr/courses/cse326/2017/labs/images/3/blueTextureBG.jpg");
+	background-position: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.left{ 
+	margin-top: 10px;
+}
+
+.right{
+	margin-left: 170px;
+}
+
+.RedBorder{
+	border: 5px solid red;
+	text-align: right;
+}
+
+.RedBorder2{
+	text-align: right;
+	background-color: #1D2475;
+}
+
+.RedBorder2 h1{
+	color: white;
+}
+
+.RedBorder2 h2{
+	color: white;
+}
+
+.RedBorder2 .DarkOrangeBorder{
+	border: none;
+}
+
+.DarkOrangeBorder{
+	border: 5px solid darkorange;
+}
+
+.DarkOrangeBorder h2{
+	font-size: 14pt;
+	color: #CCCCCC;
+	border: none;
+}
+
+.GreenBorder{
+	border: 5px solid green;
+	background-color: white;
+}
+
+.WhiteBorder{
+	border: 10px solid white;
+	background: white;
+}
+
+.PurpleBorder{
+	border: 5px solid purple;
+}
+
+.PurpleBorder2{
+	border-bottom: 2px dashed blue;
+}
+
+.BlueBorder{
+	border: 5px solid blue;
+	background-color: #99CCFF;
+	padding-top: 5px;
+	margin-top: 10px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+.BlueBorder img{
+	float: right;
+}
+
+.BlueBorder2{
+	border: 4px solid #1D2475;
+	border-radius: 15px;
+	background-color: #99CCFF;
+	padding-top: 5px;
+	margin-top: 10px;
+	text-align: justify;
+	overflow: hidden;	
+}
+
+.BlueBorder2 img{
+	float: right;
+}
+
+.ListBorder{
+	border: 4px solid #1D2475;
+	border-radius: 15px;
+	width: 150px;
+	background-color: #3366CC;
+	float: left;
+	overflow: hidden;
+}
