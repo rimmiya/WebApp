@@ -4,31 +4,39 @@
 	<head>
 		<title>Music Library</title>
 		<meta charset="utf-8" />
-		<link href="http://selab.hanyang.ac.kr/courses/cse326/2017/labs/images/5/music.jpg" type="image/jpeg" rel="shortcut icon" />
-		<link href="http://selab.hanyang.ac.kr/courses/cse326/2017/labs/labResources/music.css" type="text/css" rel="stylesheet" />
+		<link href="https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/5/music.jpg" type="image/jpeg" rel="shortcut icon" />
+		<link href="https://selab.hanyang.ac.kr/courses/cse326/2019/labs/labResources/music.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<body>
 		<h1>My Music Page</h1>
 		
 		<!-- Ex 1: Number of Songs (Variables) -->
+		<?php
+		$song_count = 5678;
+		?>
 		<p>
 			I love music.
-			I have 1234 total songs,
-			which is over 123 hours of music!
+			I have <?=$song_count?> total songs,
+			which is over <?=(int)($song_count/10)?> hours of music!
 		</p>
 
 		<!-- Ex 2: Top Music News (Loops) -->
 		<!-- Ex 3: Query Variable -->
 		<div class="section">
-			<h2>Yahoo! Top Music News</h2>
+			<h2>Billboard News</h2>
 		
 			<ol>
-				<li><a href="http://music.yahoo.com/news/archive/?page=1">Page 1</a></li>
-				<li><a href="http://music.yahoo.com/news/archive/?page=2">Page 2</a></li>
-				<li><a href="http://music.yahoo.com/news/archive/?page=3">Page 3</a></li>
-				<li><a href="http://music.yahoo.com/news/archive/?page=4">Page 4</a></li>
-				<li><a href="http://music.yahoo.com/news/archive/?page=5">Page 5</a></li>
+				<?php
+					for($i = 0; $i < 5; $i ++){
+						
+					}
+				?>
+			    <li><a href="https://www.billboard.com/archive/article/201910">2019-11</a></li>
+				<li><a href="https://www.billboard.com/archive/article/201910">2019-10</a></li>
+				<li><a href="https://www.billboard.com/archive/article/201909">2019-09</a></li>
+				<li><a href="https://www.billboard.com/archive/article/201908">2019-08</a></li>
+				<li><a href="https://www.billboard.com/archive/article/201907">2019-07</a></li>
 			</ol>
 		</div>
 
@@ -75,11 +83,11 @@
 		</div>
 
 		<div>
-			<a href="http://validator.w3.org/check/referer">
-				<img src="http://selab.hanyang.ac.kr/courses/cse326/2017/labs/images/w3c-html.png" alt="Valid HTML5" />
+			<a href="https://validator.w3.org/check/referer">
+				<img src="https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/w3c-html.png" alt="Valid HTML5" />
 			</a>
-			<a href="http://jigsaw.w3.org/css-validator/check/referer">
-				<img src="http://selab.hanyang.ac.kr/courses/cse326/2017/labs/images/w3c-css.png" alt="Valid CSS" />
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="https://selab.hanyang.ac.kr/courses/cse326/2019/labs/images/w3c-css.png" alt="Valid CSS" />
 			</a>
 		</div>
 	</body>
